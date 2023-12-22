@@ -1,0 +1,668 @@
+@font-face {
+    font-family: font;
+    src: url("../super_dream/Super\ Dream.ttf") format('woff2');
+}
+
+@font-face {
+    font-family: fontM;
+    src: url("../microsoft-sans-serif-cufonfonts/micross.ttf") format('woff2');
+}
+
+
+a {
+    color: white;
+}
+
+
+.first {
+    background-image: url(./images/homeAchtergrond.jpg);
+    background-size: cover;
+
+}
+
+.andereWi {
+    background-image: url(./images/achter.jpg);
+    background-size: cover;
+    margin-bottom: 43em;
+
+}
+
+.andere {
+    background-image: url(./images/achter.jpg);
+    background-size: cover;
+
+
+}
+
+.andereWa {
+    background-image: url(./images/achter.jpg);
+    background-size: cover;
+    margin-bottom: 73em;
+}
+
+body {
+    max-width: 23em;
+    margin: 0;
+    overflow: auto;
+
+}
+
+
+.Logo {
+    height: 44em;
+    width: 27em;
+    position: absolute;
+    right: 7.5em;
+    top: -19.5em;
+}
+
+
+header nav {
+    background-color: white;
+    width: 20em;
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    position: fixed;
+    height: 4em;
+    bottom: 0;
+    z-index: 9999;
+    border-color: #666666;
+    border-style: solid;
+    margin-left: 1.5em;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav li {
+    position: relative;
+    margin: 1em;
+    bottom: 2.5em;
+    right: 1.1em;
+
+}
+
+header li img {
+    height: 4.5em;
+
+}
+
+header nav p {
+    z-index: 1000;
+    position: absolute;
+}
+
+
+.Begin img {
+    position: absolute;
+    border-color: #E5D42F;
+    display: flex;
+    justify-content: center;
+    left: 2.5em;
+    top: 3.5em;
+
+}
+
+.Begin h1 {
+    font-family: font;
+    color: #E5D42F;
+    font-weight: 100;
+    position: relative;
+    top: 15em;
+    left: 3em;
+
+}
+
+.Begin p {
+    font-family: fontM;
+    position: relative;
+    top: 21.5em;
+    left: 4em;
+    color: white;
+}
+
+
+.StoreInfoWie {
+    position: relative;
+    top: 23em;
+}
+
+.StoreInfoWie ul {
+    padding: 0;
+}
+
+.StoreInfoWie li {
+    list-style: none;
+    width: 20em;
+    left: 2em;
+    position: relative;
+}
+
+.StoreInfoWie li:nth-child(2) {
+    position: relative;
+    top: 1em;
+}
+
+.StoreInfoWie li:nth-child(2) p:nth-child(1) {
+    color: white;
+    font-family: fontM;
+    font-weight: 900;
+    position: relative;
+    top: .5em;
+}
+
+.StoreInfoWie li:nth-child(2) h2,
+.StoreInfoWie li:nth-child(1) h2 {
+    font-family: font;
+    color: #E5D42F;
+    font-weight: 100;
+    margin: 0;
+}
+
+.StoreInfoWie p {
+    font-family: fontM;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+}
+
+
+.StoreInfoWie li:nth-child(3) img {
+    width: 20em;
+    height: 15em;
+    position: absolute;
+    right: 2em;
+    top: 2.2em;
+
+}
+
+.StoreInfoWie li:nth-child(4) {
+    position: relative;
+    top: 17em;
+    background-color: #D54C2A;
+    height: 8em;
+    border-radius: 5%;
+    box-shadow: .5em .5em black;
+    left: 1.5em;
+}
+
+.StoreInfoWie li:nth-child(4) img {
+    width: 6em;
+    height: 6em;
+    position: relative;
+    margin: 1em;
+}
+
+.StoreInfoWie li:nth-child(4) p {
+    width: 10em;
+    font-size: 1.1em;
+    font-family: fontM;
+    font-weight: 900;
+    position: relative;
+    left: 7.2em;
+    bottom: 8em;
+}
+
+.StoreInfoWie li:nth-child(4) h2 {
+    width: 10em;
+    color: #E5D42F;
+    font-family: font;
+    font-weight: 100;
+    position: relative;
+    left: 7.2em;
+    bottom: 5.3em;
+}
+
+.StoreInfoWie li:nth-child(5) {
+    position: relative;
+    top: 19em;
+    background-color: #D54C2A;
+    height: 8em;
+    border-radius: 5%;
+    box-shadow: .5em .5em black;
+    left: 1.5em;
+}
+
+
+.StoreInfoWie li:nth-child(5) img {
+    width: 6em;
+    height: 6em;
+    position: relative;
+    margin: 1em;
+}
+
+.StoreInfoWie li:nth-child(5) p {
+    width: 10em;
+    font-size: 1.1em;
+    font-family: fontM;
+    font-weight: 900;
+    position: relative;
+    left: 7.2em;
+    bottom: 8em;
+}
+
+.StoreInfoWie li:nth-child(5) h2 {
+    width: 10em;
+    color: #E5D42F;
+    font-family: font;
+    font-weight: 100;
+    position: relative;
+    left: 5.6em;
+    bottom: 5.3em;
+}
+
+.StoreInfoWie li:nth-child(6) {
+    position: relative;
+    top: 21em;
+    background-color: #D54C2A;
+    height: 8em;
+    border-radius: 5%;
+    box-shadow: .5em .5em black;
+    left: 1.5em;
+
+}
+
+
+.StoreInfoWie li:nth-child(6) img {
+    width: 6em;
+    height: 6em;
+    position: relative;
+    margin: 1em;
+}
+
+.StoreInfoWie li:nth-child(6) p {
+    width: 10em;
+    font-size: 1.1em;
+    font-family: fontM;
+    font-weight: 900;
+    position: relative;
+    left: 7.2em;
+    bottom: 8em;
+}
+
+.StoreInfoWie li:nth-child(6) h2 {
+    width: 10em;
+    color: #E5D42F;
+    font-family: font;
+    font-weight: 100;
+    position: relative;
+    left: 6em;
+    bottom: 5.3em;
+}
+
+.StoreInfoTips {
+    position: relative;
+}
+
+.StoreInfoTips ul {
+    position: relative;
+    right: 1em;
+}
+
+.StoreInfoTips li {
+    list-style: none;
+
+}
+
+.StoreInfoTips li:first-child img {
+    width: 8em;
+    height: 10em;
+    position: absolute;
+    left: 15.5em;
+    top: 2.7em;
+
+}
+
+.StoreInfoTips li:nth-child(3) img {
+    width: 20em;
+    height: 10em;
+
+}
+
+.StoreInfoTips li:nth-child(5) img {
+    width: 9em;
+    height: 11em;
+    position: absolute;
+    left: 14em;
+    top: 56em;
+}
+
+.StoreInfoTips li:nth-child(5) p {
+    width: 12em;
+}
+
+.StoreInfoTips li:nth-child(6) p {
+    width: 11em;
+    position: relative;
+
+}
+
+
+.StoreInfoTips li:nth-child(6) {
+    position: relative;
+    top: -1em;
+
+}
+
+.StoreInfoTips li:last-child {
+    position: relative;
+    top: -2em;
+
+}
+
+.StoreInfoTips li:first-child p {
+    width: 13em;
+}
+
+.StoreInfoTips h2 {
+    font-family: font;
+    color: #E5D42F;
+    font-weight: 100;
+
+}
+
+.StoreInfoTips p {
+    font-family: fontM;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: -1em;
+}
+
+.StoreInfoTips h1 {
+    font-size: 3em;
+    font-family: font;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: .5em;
+    color: white;
+}
+
+.waaromInfo ul {
+    padding: 0;
+}
+
+.waaromFo h1 {
+    font-size: 2.3em;
+    font-family: font;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1.6em;
+    color: white;
+}
+
+.waaromFo img:nth-child(2) {
+    position: absolute;
+    top: -13.5em;
+    z-index: -10;
+}
+
+.waaromFo img:nth-child(3) {
+    position: absolute;
+    top: 8.5em;
+    left: 1.5em;
+
+}
+
+.waaromInfo {
+    position: absolute;
+    top: 22em;
+    margin: 1em;
+
+}
+
+.waaromInfo h3,
+.waaromInfo h2 {
+    font-family: font;
+    color: #E5D42F;
+    font-weight: 100;
+    margin: 0;
+}
+
+.waaromInfo li {
+    list-style: none;
+    margin: 1em;
+
+}
+
+.waaromInfo li:nth-child(4) {
+    position: relative;
+    top: 16em;
+}
+
+.waaromInfo li:nth-child(5) {
+    position: relative;
+    top: 16em;
+}
+
+.waaromInfo li:nth-child(5) p:last-child {
+    position: relative;
+    top: 1em;
+    color: white;
+    font-family: fontM;
+    font-weight: 900;
+
+}
+
+.waaromInfo p {
+    font-family: fontM;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+}
+
+.waaromInfo li img {
+    width: 21em;
+    height: 15em;
+    position: absolute;
+    right: .5em;
+}
+
+.waaromInfo li:last-child img {
+    position: absolute;
+    width: 9em;
+    height: 5em;
+    left: 9.5em;
+    top: 5.5em;
+}
+
+
+.footerWa img {
+    width: 20em;
+    height: 16em;
+    position: relative;
+    top: 78em;
+    left: 1.5em;
+}
+
+
+.footerWa form {
+    position: relative;
+    top: 65.5em;
+}
+
+.footerWa form label {
+    font-family: fontM;
+}
+
+.footerWa form label:first-child {
+    position: relative;
+    top: -1.4em;
+    left: 3.2em;
+    font-family: fontM;
+}
+
+.footerWa form input:nth-child(2) {
+    left: -.6em;
+    position: relative;
+}
+
+.footerWa form label:nth-child(3) {
+    position: relative;
+    top: 2.5em;
+    right: 12.4em;
+}
+
+.footerWa form input:nth-child(4) {
+    right: -2.7em;
+    position: relative;
+    top: 1em;
+    width: 19em;
+}
+
+.footerWa form input:nth-child(5) {
+    position: relative;
+    left: 18em;
+
+}
+
+.footerWa form input {
+    margin: 1em;
+}
+
+.footerWa p {
+    position: relative;
+    top: 65em;
+    font-family: font;
+    display: flex;
+    justify-content: center;
+}
+
+.footerWi img {
+    width: 20em;
+    height: 16em;
+    position: relative;
+    top: 48em;
+    left: 1.5em;
+}
+
+
+.footerWi form {
+    position: relative;
+    top: 36em;
+}
+
+.footerWi form label {
+    font-family: fontM;
+}
+
+.footerWi form label:first-child {
+    position: relative;
+    top: -1.4em;
+    left: 3.2em;
+    font-family: fontM;
+}
+
+.footerWi form input:nth-child(2) {
+    left: -.6em;
+    position: relative;
+}
+
+.footerWi form label:nth-child(3) {
+    position: relative;
+    top: 2.5em;
+    right: 12.4em;
+}
+
+.footerWi form input:nth-child(4) {
+    right: -2.7em;
+    position: relative;
+    top: 1em;
+    width: 19em;
+}
+
+.footerWi form input:nth-child(5) {
+    position: relative;
+    left: 18em;
+
+}
+
+.footerWi form input {
+    margin: 1em;
+}
+
+.footerWi p {
+    position: relative;
+    top: 35em;
+    font-family: font;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.footerTi img {
+    width: 20em;
+    height: 16em;
+    position: relative;
+
+    left: 1.5em;
+}
+
+
+.footerTi form {
+    position: relative;
+    top: -12em;
+}
+
+.footeTi form label {
+    font-family: fontM;
+}
+
+.footerTi form label:first-child {
+    position: relative;
+    top: -1.4em;
+    left: 3.2em;
+    font-family: fontM;
+}
+
+.footerTi form input:nth-child(2) {
+    left: -.6em;
+    position: relative;
+}
+
+.footerTi form label:nth-child(3) {
+    position: relative;
+    top: 2.5em;
+    right: 12.4em;
+}
+
+.footerTi form input:nth-child(4) {
+    right: -2.7em;
+    position: relative;
+    top: 1em;
+    width: 19em;
+}
+
+.footerTi form input:nth-child(5) {
+    position: relative;
+    left: 18em;
+
+}
+
+.footerTi form input {
+    margin: 1em;
+}
+
+.footerTi p {
+    position: relative;
+    top: -13em;
+    font-family: font;
+    display: flex;
+    justify-content: center;
+
+}

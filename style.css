@@ -49,11 +49,9 @@ body {
 
 
 .Logo {
-    height: 44em;
-    width: 27em;
     position: absolute;
-    right: 7.5em;
-    top: -19.5em;
+    left: 1em;
+    top: 1em;
 }
 
 
@@ -82,14 +80,14 @@ header nav ul {
 
 header nav li {
     position: relative;
-    margin: 1em;
+    margin: 2em;
     bottom: 2.5em;
     right: 1.1em;
 
 }
 
 header li img {
-    height: 4.5em;
+    position: relative;
 
 }
 
@@ -174,11 +172,9 @@ header nav p {
 
 
 .StoreInfoWie li:nth-child(3) img {
-    width: 20em;
-    height: 15em;
     position: absolute;
-    right: 2em;
-    top: 2.2em;
+    right: 2.5em;
+    top: 2.6em;
 
 }
 
@@ -193,8 +189,6 @@ header nav p {
 }
 
 .StoreInfoWie li:nth-child(4) img {
-    width: 6em;
-    height: 6em;
     position: relative;
     margin: 1em;
 }
@@ -231,8 +225,6 @@ header nav p {
 
 
 .StoreInfoWie li:nth-child(5) img {
-    width: 6em;
-    height: 6em;
     position: relative;
     margin: 1em;
 }
@@ -270,8 +262,6 @@ header nav p {
 
 
 .StoreInfoWie li:nth-child(6) img {
-    width: 6em;
-    height: 6em;
     position: relative;
     margin: 1em;
 }
@@ -311,8 +301,6 @@ header nav p {
 }
 
 .StoreInfoTips li:first-child img {
-    width: 8em;
-    height: 10em;
     position: absolute;
     left: 15.5em;
     top: 2.7em;
@@ -320,16 +308,13 @@ header nav p {
 }
 
 .StoreInfoTips li:nth-child(3) img {
-    width: 20em;
-    height: 10em;
-
+    position: relative;
+    left: 1em;
 }
 
 .StoreInfoTips li:nth-child(5) img {
-    width: 9em;
-    height: 11em;
     position: absolute;
-    left: 14em;
+    left: 14.5em;
     top: 56em;
 }
 
@@ -462,33 +447,27 @@ header nav p {
 }
 
 .waaromInfo li img {
-    width: 21em;
-    height: 15em;
     position: absolute;
     right: .5em;
 }
 
 .waaromInfo li:last-child img {
     position: absolute;
-    width: 9em;
-    height: 5em;
     left: 9.5em;
     top: 5.5em;
 }
 
 
 .footerWa img {
-    width: 20em;
-    height: 16em;
-    position: relative;
     top: 78em;
+    position: relative;
     left: 1.5em;
 }
 
 
 .footerWa form {
     position: relative;
-    top: 65.5em;
+
 }
 
 .footerWa form label {
@@ -497,33 +476,34 @@ header nav p {
 
 .footerWa form label:first-child {
     position: relative;
-    top: -1.4em;
+    top: 64em;
     left: 3.2em;
     font-family: fontM;
 }
 
 .footerWa form input:nth-child(2) {
     left: -.6em;
+    top: 79em;
     position: relative;
 }
 
 .footerWa form label:nth-child(3) {
     position: relative;
-    top: 2.5em;
+    top: 68em;
     right: 12.4em;
 }
 
 .footerWa form input:nth-child(4) {
     right: -2.7em;
     position: relative;
-    top: 1em;
+    top: 80em;
     width: 19em;
 }
 
 .footerWa form input:nth-child(5) {
     position: relative;
     left: 18em;
-
+    top: 79em;
 }
 
 .footerWa form input {
@@ -539,8 +519,6 @@ header nav p {
 }
 
 .footerWi img {
-    width: 20em;
-    height: 16em;
     position: relative;
     top: 48em;
     left: 1.5em;
@@ -600,16 +578,8 @@ header nav p {
 }
 
 
-
-
-
-
-
 .footerTi img {
-    width: 20em;
-    height: 16em;
     position: relative;
-
     left: 1.5em;
 }
 
